@@ -1,0 +1,17 @@
+body {
+    background-image: url("img/fondo.jpg");
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+}
+h1 {
+    color :rgb(185, 21, 21);
+    text-align : right;
+}
+h2{
+    text-align: : right;
+left:50%
+top:50%
+}
+label{
+    text-align: right;
+}

@@ -1,4 +1,5 @@
 const cipher = {
+   encode: function() { return  } 
   // ...
 };
 
