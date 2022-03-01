@@ -1,20 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>WARNING!!!</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>LEER CON PRECAUCIÓN!!! </h1>
-      <h2>Esta página es de estado confidencial, cualquier peligro consecuente a ello será bajo responsabilidad del visitante </h2>
-      <label> Escribe tu nombre aquí: </label>
-      <input type="text" id="name1">
-      <br></br>
-      <button id="myFirstButton">Identificarse</button>
-    </div>
-    <div id="saludo"> </div>
-    <script src="index.js" type="module"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>WARNING!!!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="logo">
+    <img  class="icon" src="img/dect.gif"  alt=" ">
+  </div>
+  <div id="root">
+    <h1>LEER CON PRECAUCIÓN!!! </h1>
+    <p>Esta página es de estado confidencial, cualquier peligro consecuente a ello será bajo responsabilidad del
+      visitante </p>
+    <label> Escribe tu nombre aquí: </label>
+    <input type="text" id="name1">
+    <br>
+    <button id="myFirstButton">Identificarse</button>
+  </div>
+  <div id="greet1"> </div>
+  <hr />
+  <div>
+    <label for="original">Original message</label>
+    <textarea id="original" rows="5" cols="100" placeholder="Escribe texto aquí"></textarea>
+    <input id="offsetpract" placeholder="número de saltos">
+    <br>
+    <label for="encrypted">Message</label>
+    <textarea id="encrypted"></textarea>
+    <br>
+
+    <button id="enviar">Encode</button>
+    <button id="enviar2"> Decode </button>
+
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
 </html>
