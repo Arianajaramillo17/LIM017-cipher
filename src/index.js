@@ -5,7 +5,7 @@ bottonTest.addEventListener("click", capturar);
 function capturar() {
   var name = document.getElementById("name1").value;
   var greet = document.getElementById("greet1");
-  greet.innerText = "Hola " + name + " Bienvenido." + "Envianos tu mensaje cifrado o descifra nuestro mensaje.";
+  greet.innerText = "Bienvenid@ " + name + "." + " Descifra nuestro mensaje y/o cifra tu mensaje.";
 }
 
 let buttonSend = document.getElementById("enviar");
