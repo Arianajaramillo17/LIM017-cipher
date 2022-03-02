@@ -3,8 +3,8 @@ let bottonTest = document.getElementById("myFirstButton");
 bottonTest.addEventListener("click", capturar);
 
 function capturar() {
-  var name = document.getElementById("name1").value;
-  var greet = document.getElementById("greet1");
+  let name = document.getElementById("name1").value;
+  let greet = document.getElementById("greet1");
   greet.innerText = "Bienvenid@ " + name + "." + " Descifra nuestro mensaje y/o cifra tu mensaje.";
 }
 
@@ -17,7 +17,6 @@ function capTextOffset() {
   const encodeMesg = cipher.encode(offset, message);//LLAMADO CIPHER
   document.getElementById("encrypted").value = encodeMesg; // CAJITA FINAL CON MENSAJE CODIFICADO
 }
-
 
 let buttonSend2 = document.getElementById("enviar2");
 buttonSend2.addEventListener("click", capTextOffset2)
