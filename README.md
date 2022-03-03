@@ -464,3 +464,25 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
 
 # DETECTIVE SECRET PAGE
 Esta pagina brinda un espacio seguro para el cifrado y decifrado de información confidencial.
+
+## PROCESO
+### Prototipado 
+* En este link se puede observar el primer prototipado:(https://www.figma.com/file/GIMsDidUgt85wSYk8ykYu0/prot?node-id=0%3A1).
+* El diseño fue cambiando en el transcurso de la edición ya que se buscaba la practicidad de la página.
+### Links de investigación.
+* INVETIGACIÓN SOBRE CharCodeAt:
+(https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)
+(https://www.youtube.com/watch?v=_PNlsTT5kuU).
+* ASCII:
+(https://www.youtube.com/watch?v=KGaXXf-y-bc).
+* js,css,html:
+(https://www.w3schools.com/css/css_dimension.asp)
+(https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Working_with_Objects)
+(https://www.geeksforgeeks.org/what-is-the-difference-between-section-and-div-tags-in-html/#:~:text=Both%20the%20tags%20(,is%20called%20a%20division%20tag.)
+(https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions).
+## USUARIOS
+Este proyecto esta dirigido a agencias que manejan información de manera discreta con la necesidad de tener espacios donde se pueda manejar el cifrado y descifrado.
+### Solución de necesidades o problemas
+Con esta página web cubre la necesidad de la seguridad de codificar y decodificar mensajes de caracter confidencial de manera practica, con instrucciones claras, para un proceso más rápido.
+## FUNCIONALIDAD
+Los usuarios pueden descifrar el texto previamente enviado por la empresa que brinda el servicio; tomar en cuenta que la empresa enviará el mensaje y el número de saltos para un eficiente proceso, al igual es posible cifrar el mensaje que luego tendrá que ser enviado al correo señalado al pie de la página.
